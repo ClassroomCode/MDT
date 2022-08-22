@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TicTacToe.ConsoleApp
+namespace TicTacToe.Lib
 {
     public class Board
     {
