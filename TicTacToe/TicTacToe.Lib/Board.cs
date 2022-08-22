@@ -6,8 +6,15 @@ using System.Threading.Tasks;
 
 namespace TicTacToe.Lib
 {
+    public enum Piece { Empty, X, O }
+
     public class Board
     {
-        //
+        private Piece[] pos = new Piece[9];
+
+        public Piece GetPos(int i)
+        {
+            return pos[i];
+        }
     }
 }
