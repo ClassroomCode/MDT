@@ -10,15 +10,12 @@ namespace TicTacToe.Lib
 
     public class Board
     {
-        private Piece[] _pos = new Piece[9]
-        {
-            Piece.X, Piece.X, Piece.X, Piece.X, Piece.X,
-            Piece.O, Piece.O, Piece.O, Piece.X
-        };
+        private Piece[] _pos = new Piece[9];
 
-        public Piece GetPos(int i)
+        public Piece this[int i]
         {
-            return _pos[i];
+            get { return _pos[i - 1]; }
+            set { _pos[i - 1] = value; }
         }
 
         public bool IsEmpty => !(_pos.Any(p => p != Piece.Empty));

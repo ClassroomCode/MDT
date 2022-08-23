@@ -8,9 +8,6 @@ namespace TicTacToe.ConsoleApp
         {
             var b = new Board();
 
-            Console.WriteLine($"Full? {b.IsFull}");
-            Console.WriteLine($"Empty? {b.IsEmpty}");
-
             Console.WriteLine("   |   |   ");
             Console.WriteLine("---+---+---");
             Console.WriteLine("   | X |   ");
