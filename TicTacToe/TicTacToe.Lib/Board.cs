@@ -21,8 +21,8 @@ namespace TicTacToe.Lib
             return _pos[i];
         }
 
-        public bool IsEmpty => _pos.Any(p => p == Piece.Empty);
+        public bool IsEmpty => !(_pos.Any(p => p != Piece.Empty));
 
-        public bool IsFull => _pos.Any(p => p != Piece.Empty);
+        public bool IsFull => !(_pos.Any(p => p == Piece.Empty));
     }
 }
