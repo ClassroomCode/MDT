@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe.Tests", "TicTacTo
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TicTacToe.WinFormsVB", "TicTacToe.WinFormsVB\TicTacToe.WinFormsVB.vbproj", "{682712FE-D9A7-4221-B40E-C82D9DE18B02}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe.WPFApp", "TicTacToe.WPFApp\TicTacToe.WPFApp.csproj", "{1E7AE5D2-0197-408C-BF40-17929043A6A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{682712FE-D9A7-4221-B40E-C82D9DE18B02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{682712FE-D9A7-4221-B40E-C82D9DE18B02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{682712FE-D9A7-4221-B40E-C82D9DE18B02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E7AE5D2-0197-408C-BF40-17929043A6A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E7AE5D2-0197-408C-BF40-17929043A6A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E7AE5D2-0197-408C-BF40-17929043A6A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E7AE5D2-0197-408C-BF40-17929043A6A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
