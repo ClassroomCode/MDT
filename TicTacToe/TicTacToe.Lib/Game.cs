@@ -19,5 +19,19 @@ namespace TicTacToe.Lib
             CurrentPlayer = (CurrentPlayer == Piece.X ? Piece.O : Piece.X);
             return true;
         }
+
+        public Piece[] IsWinner()
+        {
+            // TODO: Return pieces that make the win
+
+            return new Piece[] { };
+        }
+
+        public bool IsTie()
+        {
+            // TODO: Implement
+
+            return false;
+        }
     }
 }
